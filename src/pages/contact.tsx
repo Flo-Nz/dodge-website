@@ -21,7 +21,7 @@ const ContactPage = () => {
         </div>
 
         {/* Contact Cards */}
-        <div className="grid md:grid-cols-2 gap-6 max-w-4xl w-full px-6">
+        <div className="grid md:grid-cols-2 gap-6 max-w-4xl w-full lg:px-6">
           {/* Téléphone */}
           <Card className="w-full">
             <CardHeader className="flex flex-col items-start px-6 pt-6">
@@ -51,7 +51,7 @@ const ContactPage = () => {
             </CardHeader>
             <CardBody className="px-6 pb-6">
               <Link
-                className="text-2xl font-semibold text-primary break-all"
+                className="text-lg md:text-2xl font-semibold text-primary"
                 href="mailto:contact@calidodgeball.fr"
               >
                 contact@calidodgeball.fr

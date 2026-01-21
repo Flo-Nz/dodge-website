@@ -20,7 +20,7 @@ const EntrainementsPage = () => {
         </div>
 
         {/* Créneaux par jour */}
-        <div className="max-w-4xl w-full px-6 space-y-6">
+        <div className="max-w-4xl w-full space-y-6">
           {/* Lundi */}
           <Card className="w-full">
             <CardHeader className="flex flex-col items-start px-6 pt-6">
