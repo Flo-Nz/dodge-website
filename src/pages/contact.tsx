@@ -37,7 +37,7 @@ const ContactPage = () => {
                 >
                   06 28 34 26 80
                 </Link>
-                <p className="text-default-600">Olivier (président)</p>
+                <p className="text-default-600">Olivier (Président)</p>
               </div>
             </CardBody>
           </Card>
