@@ -92,15 +92,6 @@ public/
 - **Facebook** : [DodgeballLibourne](https://www.facebook.com/DodgeballLibourne)
 - **Instagram** : [@dodgeballlibourne_a.c.d.c](https://www.instagram.com/dodgeballlibourne_a.c.d.c)
 
-## Horaires d'entraînement
-
-- **Lundi** : 20h00 - 22h00 (Adultes et ados 15 ans et +)
-- **Jeudi** :
-  - 18h00 - 19h00 (Enfants 10-15 ans)
-  - 19h00 - 20h00 (Adultes et ados 15 ans et +)
-
-**Lieu** : Gymnase Saint-Exupéry, Libourne
-
 ## Licence
 
 MIT
