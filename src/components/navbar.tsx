@@ -58,12 +58,22 @@ export const Navbar = () => {
         justify="end"
       >
         <NavbarItem className="hidden sm:flex gap-2">
-          <Link isExternal href={siteConfig.links.facebook} title="Facebook">
+          <a
+            href={siteConfig.links.facebook}
+            rel="noopener noreferrer"
+            target="_blank"
+            title="Facebook"
+          >
             <FacebookIcon className="text-default-500" />
-          </Link>
-          <Link isExternal href={siteConfig.links.instagram} title="Instagram">
+          </a>
+          <a
+            href={siteConfig.links.instagram}
+            rel="noopener noreferrer"
+            target="_blank"
+            title="Instagram"
+          >
             <InstagramIcon className="text-default-500" />
-          </Link>
+          </a>
           <ThemeSwitch />
         </NavbarItem>
       </NavbarContent>

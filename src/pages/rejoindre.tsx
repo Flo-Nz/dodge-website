@@ -1,4 +1,3 @@
-import { Link } from "@heroui/link";
 import { Button } from "@heroui/button";
 import { Card, CardBody, CardHeader } from "@heroui/card";
 import { Divider } from "@heroui/divider";
@@ -36,11 +35,12 @@ const RejoindreIndexPage = () => {
               plateforme sécurisée.
             </p>
             <Button
-              isExternal
-              as={Link}
+              as="a"
               color="primary"
               href="https://association-cali-dodgeball-club.s2.yapla.com/fr/espace-membres"
+              rel="noopener noreferrer"
               size="lg"
+              target="_blank"
               variant="shadow"
             >
               Accéder au formulaire d&apos;inscription
@@ -89,28 +89,31 @@ const RejoindreIndexPage = () => {
               </h3>
               <div className="flex flex-col md:flex-row gap-3">
                 <Button
-                  isExternal
-                  as={Link}
+                  as="a"
                   color="secondary"
                   href="https://cdn.eu.yapla.com/company/CPYzPCunxMjTd4DVJpsekaq9Y/asset/files/doc_federales/QS_mineur.pdf"
+                  rel="noopener noreferrer"
+                  target="_blank"
                   variant="bordered"
                 >
                   Questionnaire santé mineur
                 </Button>
                 <Button
-                  isExternal
-                  as={Link}
+                  as="a"
                   color="secondary"
-                  href="https://calidodgeball.fr/wp-content/uploads/2025/09/Questionnaire-de-sante-majeur.pdf"
+                  href="https://cdn.eu.yapla.com/company/CPYzPCunxMjTd4DVJpsekaq9Y/asset/files/doc_federales/Questionnaire%20de%20sant%C3%A9%20majeur.pdf"
+                  rel="noopener noreferrer"
+                  target="_blank"
                   variant="bordered"
                 >
                   Questionnaire santé majeur
                 </Button>
                 <Button
-                  isExternal
-                  as={Link}
+                  as="a"
                   color="secondary"
                   href="https://cdn.eu.yapla.com/company/CPYzPCunxMjTd4DVJpsekaq9Y/asset/files/doc_federales/CERTIFICAT%20MEDICAL.pdf"
+                  rel="noopener noreferrer"
+                  target="_blank"
                   variant="bordered"
                 >
                   Certificat médical
@@ -186,11 +189,12 @@ const RejoindreIndexPage = () => {
         {/* CTA */}
         <div className="mt-8">
           <Button
-            isExternal
-            as={Link}
+            as="a"
             color="primary"
             href="https://association-cali-dodgeball-club.s2.yapla.com/fr/espace-membres"
+            rel="noopener noreferrer"
             size="lg"
+            target="_blank"
             variant="shadow"
           >
             S&apos;inscrire maintenant
