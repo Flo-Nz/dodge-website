@@ -127,7 +127,7 @@ const RejoindreIndexPage = () => {
         <Card className="max-w-4xl w-full">
           <CardHeader className="flex flex-col items-start px-6 pt-6">
             <h2 className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Tarifs 2025-2026
+              Tarifs 2026-2027
             </h2>
           </CardHeader>
           <CardBody className="px-6 pb-6 space-y-4">

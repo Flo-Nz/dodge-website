@@ -36,7 +36,7 @@ const EntrainementsPage = () => {
                   </h3>
                   <p className="text-lg font-medium">Minimes</p>
                   <p className="text-default-600">
-                    11-13 ans (né(e)s 2012-2014)
+                    11-13 ans (né(e)s 2013-2015)
                   </p>
                 </div>
 
@@ -45,9 +45,9 @@ const EntrainementsPage = () => {
                     19h30 - 21h
                   </h3>
                   <p className="text-lg font-medium">
-                    Juniors et Séniors - Niveau avancé
+                    Juniors et Séniors - Niveau équipe 1 (ouvert à tous)
                   </p>
-                  <p className="text-default-600">Né(e)s 2011 et avant</p>
+                  <p className="text-default-600">Né(e)s 2012 et avant</p>
                 </div>
 
                 <div className="bg-secondary/10 rounded-lg p-4">
@@ -78,7 +78,7 @@ const EntrainementsPage = () => {
                   </h3>
                   <p className="text-lg font-medium">Benjamin(e)s</p>
                   <p className="text-default-600">
-                    8-10 ans (né(e)s 2015-2017)
+                    8-10 ans (né(e)s 2016-2018)
                   </p>
                 </div>
 
@@ -87,9 +87,9 @@ const EntrainementsPage = () => {
                     19h30 - 21h
                   </h3>
                   <p className="text-lg font-medium">
-                    Juniors et Séniors - Tout niveau
+                    Juniors et Séniors - Niveau équipe 2
                   </p>
-                  <p className="text-default-600">Né(e)s 2011 et avant</p>
+                  <p className="text-default-600">Né(e)s 2012 et avant</p>
                 </div>
               </div>
             </CardBody>
