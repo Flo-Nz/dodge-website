@@ -42,7 +42,7 @@ const EntrainementsPage = () => {
 
                 <div className="bg-primary/10 rounded-lg p-4">
                   <h3 className="text-xl font-semibold text-primary mb-2">
-                    19h30 - 21h
+                    19h30 - 21h30
                   </h3>
                   <p className="text-lg font-medium">
                     Juniors et Séniors - Niveau équipe 1 (ouvert à tous)
@@ -84,7 +84,7 @@ const EntrainementsPage = () => {
 
                 <div className="bg-primary/10 rounded-lg p-4">
                   <h3 className="text-xl font-semibold text-primary mb-2">
-                    19h30 - 21h
+                    19h30 - 21h30
                   </h3>
                   <p className="text-lg font-medium">
                     Juniors et Séniors - Niveau équipe 2
