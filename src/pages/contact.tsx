@@ -32,6 +32,7 @@ const ContactPage = () => {
             <CardBody className="px-6 pb-6">
               <div className="space-y-2">
                 <Link
+                  isExternal
                   className="text-2xl font-semibold text-primary"
                   href="tel:+33628342680"
                 >
@@ -51,6 +52,7 @@ const ContactPage = () => {
             </CardHeader>
             <CardBody className="px-6 pb-6">
               <Link
+                isExternal
                 className="text-lg md:text-2xl font-semibold text-primary"
                 href="mailto:contact@calidodgeball.fr"
               >
