@@ -52,7 +52,7 @@ const EntrainementsPage = () => {
 
                 <div className="bg-secondary/10 rounded-lg p-4">
                   <h3 className="text-xl font-semibold text-secondary mb-2">
-                    21h - 22h
+                    21h30 - 22h
                   </h3>
                   <p className="text-lg font-medium">
                     Juniors et Séniors - Ateliers spécifiques
