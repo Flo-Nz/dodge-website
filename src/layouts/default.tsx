@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/navbar";
+import { RepriseBanner } from "@/components/reprise-banner";
 
 export default function DefaultLayout({
   children,
@@ -8,6 +9,7 @@ export default function DefaultLayout({
   return (
     <div className="relative flex flex-col h-screen">
       <Navbar />
+      <RepriseBanner />
       <main className="container mx-auto max-w-7xl px-6 flex-grow pt-16">
         {children}
       </main>
