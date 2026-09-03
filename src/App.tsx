@@ -3,6 +3,7 @@ import { useEffect } from "react";
 
 import IndexPage from "@/pages/index";
 import EntrainementsPage from "@/pages/entrainements";
+import EvenementsPage from "@/pages/evenements";
 import ContactPage from "@/pages/contact";
 import RejoindreIndexPage from "@/pages/rejoindre";
 
@@ -24,6 +25,7 @@ const App = () => {
         <Route element={<IndexPage />} path="/" />
         <Route element={<ContactPage />} path="/contact" />
         <Route element={<EntrainementsPage />} path="/entrainements" />
+        <Route element={<EvenementsPage />} path="/evenements" />
         <Route element={<RejoindreIndexPage />} path="/rejoindre" />
       </Routes>
     </>

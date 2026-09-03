@@ -2,23 +2,17 @@ import { useState } from "react";
 import { Alert } from "@heroui/alert";
 import { Link } from "@heroui/link";
 
-const DISMISS_KEY = "acdc:reprise-2026:dismissed";
+// La bannière est masquée uniquement pour la session en cours (en mémoire) :
+// elle réapparaît automatiquement après un rechargement de la page.
+let dismissed = false;
 
 export const RepriseBanner = () => {
-  const [isVisible, setIsVisible] = useState(
-    () =>
-      typeof window === "undefined" ||
-      window.localStorage.getItem(DISMISS_KEY) !== "true",
-  );
+  const [isVisible, setIsVisible] = useState(!dismissed);
 
   if (!isVisible) return null;
 
   const handleClose = () => {
-    try {
-      window.localStorage.setItem(DISMISS_KEY, "true");
-    } catch {
-      // Stockage indisponible (navigation privée, quota…) : on masque quand même
-    }
+    dismissed = true;
     setIsVisible(false);
   };
 
@@ -29,14 +23,16 @@ export const RepriseBanner = () => {
         color="primary"
         description="La reprise des entraînements aura lieu la semaine du 7 septembre 2026."
         endContent={
-          <Link
-            className="font-medium whitespace-nowrap"
-            color="primary"
-            href="/entrainements"
-            size="sm"
-          >
-            Voir les entraînements
-          </Link>
+          <div className="hidden sm:block">
+            <Link
+              className="font-medium whitespace-nowrap"
+              color="primary"
+              href="/entrainements"
+              size="sm"
+            >
+              Voir les entraînements
+            </Link>
+          </div>
         }
         title="Reprise des entraînements"
         variant="faded"
