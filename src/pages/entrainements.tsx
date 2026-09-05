@@ -87,7 +87,7 @@ const EntrainementsPage = () => {
                     19h30 - 21h30
                   </h3>
                   <p className="text-lg font-medium">
-                    Juniors et Séniors - Niveau équipe 2
+                    Juniors et Séniors - Niveau équipe 2 (ouvert à tous)
                   </p>
                   <p className="text-default-600">Né(e)s 2012 et avant</p>
                 </div>
