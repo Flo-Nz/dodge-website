@@ -118,6 +118,16 @@ const RejoindreIndexPage = () => {
                 >
                   Certificat médical
                 </Button>
+                <Button
+                  as="a"
+                  color="secondary"
+                  href="https://cdn.eu.yapla.com/company/CPYzPCunxMjTd4DVJpsekaq9Y/asset/files/doc_federales/2026%2006%2024%20Attestation%20surclassement%202026%202027.pdf"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  variant="bordered"
+                >
+                  Autorisation de surclassement
+                </Button>
               </div>
             </div>
           </CardBody>
